@@ -1,9 +1,9 @@
 # Data Structure + Algorimth
 
-### Tasks
+> Tasks 
  [ ] `Strings & Arrays` 
- [ ] `Stacks & Queues`
- [ ] `Linked List`
- [ ] `Binary Search Tree`
- [ ] `Heaps`
- [ ] `Graphs`
+ [ ] `Stacks & Queues` 
+ [ ] `Linked List` 
+ [ ] `Binary Search Tree` 
+ [ ] `Heaps` 
+ [ ] `Graphs` 
