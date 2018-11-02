@@ -3,7 +3,7 @@
 ### Problems that I have worked on and that I have solved or if you don't see the answer in the repo is because I am in the process of solving it. 
 
 
-**`Printer Errors`**
+- [x] **`Printer Errors`**
 
    In a factory a printer prints labels for boxes. For one kind of boxes the printer has to use colors which, for the sake of simplicity, are named with letters from a to m.
 
@@ -24,7 +24,7 @@
    error_printer(s) => "8/22"
    ``` 
 
-**`Ones and Zeros`**
+- [x] **`Ones and Zeros`**
 
    Given an array of one's and zero's convert the equivalent binary value to an integer.
    Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
@@ -42,7 +42,7 @@
    ```
    However, the arrays can have varying lengths, not just limited to 4.
 
-**`Complementary DNA`**
+- [x] **`Complementary DNA`**
 
    Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
 
@@ -58,7 +58,7 @@
    DNAStrand ("GTAT") # return "CATA"
    ```
 
-**`Equal Sides of An Array`**
+- [ ] **`Equal Sides of An Array`**
 
    
    You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
