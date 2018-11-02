@@ -1,9 +1,9 @@
 # Codewars
 
-- Problems that I have work on and that I have solve 
+### Problems that I have work on and that I have solve 
 
-1. **`Printer Errors`**
-===
+
+**`Printer Errors`**
 
    In a factory a printer prints labels for boxes. For one kind of boxes the printer has to use colors which, for the sake of simplicity, are named with letters from a to m.
 
@@ -24,8 +24,7 @@
    error_printer(s) => "8/22"
    ``` 
 
-2. **`Ones and Zeros`**
-===
+**`Ones and Zeros`**
 
    Given an array of one's and zero's convert the equivalent binary value to an integer.
    Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
@@ -42,4 +41,30 @@
    Testing: [1, 0, 1, 1] ==> 11
    ```
    However, the arrays can have varying lengths, not just limited to 4.
+
+**`Complementary DNA`**
+
+   Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
+
+   If you want to know more http://en.wikipedia.org/wiki/DNA
+
+   In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". You have function with one side of the DNA (string, except for Haskell); you need to get the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+
+   More similar exercise are found here http://rosalind.info/problems/list-view/ (source)
+
+   ```Javascript
+   DNAStrand ("ATTGC") # return "TAACG"
+
+   DNAStrand ("GTAT") # return "CATA"
+   ```
+
+
+
+
+
+
+
+
+
+
 
