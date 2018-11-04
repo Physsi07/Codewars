@@ -1,7 +1,4 @@
-# Codewars
-
-### Problems that I have worked on and that I have solved or if you don't see the answer in the repo is because I am in the process of solving it. 
-
+# Problem Solving
 
 - [x] **`Printer Errors`**
 
@@ -58,7 +55,7 @@
    DNAStrand ("GTAT") # return "CATA"
    ```
 
-- [ ] **`Equal Sides of An Array`**
+- [x] **`Equal Sides of An Array`**
 
    
    You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
