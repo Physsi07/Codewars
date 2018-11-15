@@ -111,7 +111,7 @@
    highAndLow("1 9 3 4 -5"); // return "9 -5"
    ```
 
-   Notes:
+   - Notes:
 
    All numbers are valid Int32, no need to validate them.
    There will always be at least one number in the input string.
@@ -143,6 +143,18 @@
    because [1, 2, 3, 4, 5, 6], [6, 7, 8], [10, 11]
    ```
 
+- [x] **`Mumbling`**
+
+   This time no story, no theory. The examples below show you how to write function accum:
+
+   Example:
+   ```Javascript
+   accum("abcd");    // "A-Bb-Ccc-Dddd"
+   accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+   accum("cwAt");    // "C-Ww-Aaa-Tttt"
+   ```
+
+   `The parameter of accum is a string which includes only letters from a..z and A..Z.`
 
 
 
