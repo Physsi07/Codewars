@@ -156,8 +156,18 @@
 
    `The parameter of accum is a string which includes only letters from a..z and A..Z.`
 
+- [x] **`Palindrone`**
 
+   Determine whether an integer is a palindrone. An integer is a palindrone when it reads the same backwards as forward.
 
+   Example:
+   ```Javascript
+   input = 1234321
+   output = true
+
+   input = -121
+   output = false
+   ```
 
 
 
