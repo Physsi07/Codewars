@@ -169,7 +169,7 @@
    output = false
    ```
 
-- [ ] **``What's the real floor?**
+- [x] **``What's the real floor?**
 
    Americans are odd people: in their buildings, the first floor is actually the ground floor and there is no 13th floor ('cause of superstition).
 
