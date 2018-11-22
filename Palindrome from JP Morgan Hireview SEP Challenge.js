@@ -9,7 +9,7 @@ function additionInPalindrome(number){
   result +=  parseInt((number + '').split('').reverse().join(''));
   count++;
 
-  while(!isPalindrone(result)){
+  while(!isPalindrome(result)){
     result += parseInt((result + '').split('').reverse().join(''));
     count++;
   }
@@ -17,6 +17,6 @@ function additionInPalindrome(number){
   return [count, result];
 }
 
-function isPalindrone(number){
+function isPalindrome(number){
   return (number + '').split("").reverse().join("") === number + '';
 }

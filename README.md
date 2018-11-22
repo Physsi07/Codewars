@@ -193,6 +193,8 @@
 
    Return should be an array or list with two values, number of additions and palindrone found.
 
+   Contrains: number >= 0 
+
    Examples:
    ```Javascript
    input  -->  0    output  -->  [ 0, 0 ]
