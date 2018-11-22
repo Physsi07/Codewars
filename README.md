@@ -184,6 +184,24 @@
    getRealFloor(15) == 13
    getRealFloor(-3) == -3
    ```
+- [x] **`Palindrome - JP Morgarn Hireview Question`**
+
+   Giving a number, check if that number is a palindrone, 
+   if is not, reverse that number and add it to the original number given, 
+   and keep doing the same recursively until the result of the addition is a palindrone,
+   And, if the number given is a palindrome, one addition has to be made.
+
+   Return should be an array or list with two values, number of additions and palindrone found.
+
+   Examples:
+   ```Javascript
+   input  -->  0    output  -->  [ 0, 0 ]
+   input  -->  121  output  -->  [ 1, 242 ]
+   input  -->  97   output  -->  [ 6, 44044 ]
+   input  -->  481  output  -->  [ 3, 2552 ]
+   input  -->  793  output  -->  [ 3, 3113 ]
+   ```
+
 
 
 
