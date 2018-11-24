@@ -204,7 +204,7 @@
    input  -->  793  output  -->  [ 3, 3113 ]
    ```
 
-- [ ] **`How Many Coins to get to Total - JP Morgan Hireview Question`**
+- [x] **`How Many Coins to get to Total - JP Morgan Hireview Question`**
 
    You are giving coins of values 1, 2, 4. You are also given a total which you have to arrive at.
    Find the minimum number of coins to arrive at the total. 
