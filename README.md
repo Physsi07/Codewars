@@ -204,7 +204,20 @@
    input  -->  793  output  -->  [ 3, 3113 ]
    ```
 
+- [ ] **`How Many Coins to get to Total - JP Morgan Hireview Question`**
 
+   You are giving coins of values 1, 2, 4. You are also given a total which you have to arrive at.
+   Find the minimum number of coins to arrive at the total. 
 
+   `Input:`
+   Your program should read lines from standard input. Each line contains a positive integer number
+   which represents the total you have to arrive at.
 
+   `Output:`
+   Print out the minimum number of coins required to arrive at the total.
 
+   Examples:
+   ```Javascript
+   input --> 20 output --> 5
+   input --> 11 output --> 4	
+   ```
