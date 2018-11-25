@@ -3,7 +3,7 @@ function answer(lines){
   let result = lines;
 
   do{
-    result += parseInt((lines + '').split('').reverse().join(''));
+    result += parseInt((result + '').split('').reverse().join(''));
     count++;
   }while(!noDuplicates(result));
 

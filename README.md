@@ -169,7 +169,7 @@
    output = false
    ```
 
-- [x] **``What's the real floor?**
+- [x] **`What's the real floor?`**
 
    Americans are odd people: in their buildings, the first floor is actually the ground floor and there is no 13th floor ('cause of superstition).
 
@@ -245,7 +245,7 @@
               answer --> [ 2, 534 ]
    --------------------------------
    Input  --> 555 
-              result --> 555
+   Output --> result --> 555
               result --> 1110
               result --> 1665
               result --> 2220
@@ -255,7 +255,7 @@
               result --> 4440
               result --> 4995
               result --> 5550
-   Output --> answer --> [ 10, 6105 ]
+              answer --> [ 10, 6105 ]
    ```
 
 
