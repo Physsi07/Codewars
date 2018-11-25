@@ -11,7 +11,7 @@
    You have to write a function printer_error which given a string will output the error rate of the printer as a string representing a rational whose numerator is the number of errors and the denominator the length of the control string. Don't reduce this fraction to a simpler expression.
 
    The string has a length greater or equal to one and contains only letters from ato z.
-
+   
    *Examples:*
    ```Javascript
    s="aaabbbbhaijjjm"
@@ -216,7 +216,7 @@
    `Output:`
    Print out the minimum number of coins required to arrive at the total.
 
-   Examples:
+   Example:
    ```Javascript
    input --> 20 output --> 5
    input --> 11 output --> 4	
