@@ -221,3 +221,45 @@
    input --> 20 output --> 5
    input --> 11 output --> 4	
    ```
+
+- [x] **`No Duplicates Digits - JP Morgan (CHASE) Question`**
+
+   Giving a number, check if that number has duplicates digits,
+   If it does, reverse that number and add it to the original number given, and keep doing the same
+   recursively until the result of the addition has no duplicates.
+   And, if the number given has no duplicates, at least one addition has to be made.
+ 
+   Return should be an array or list with two values, number of additions and the result found.
+   Return [amount of addition, result]
+   Constrains: - Only positive numbers
+
+   Examples:
+   ```Javascript
+   Input  --> 1234 
+   Output --> result --> 1234
+              result --> 5555
+              answer --> [ 2, 9876 ]
+   ---------------------------------
+   Input  --> result --> 112
+   Output --> result --> 323
+              answer --> [ 2, 534 ]
+   --------------------------------
+   Input  --> 555 
+              result --> 555
+              result --> 1110
+              result --> 1665
+              result --> 2220
+              result --> 2775
+              result --> 3330
+              result --> 3885
+              result --> 4440
+              result --> 4995
+              result --> 5550
+   Output --> answer --> [ 10, 6105 ]
+   ```
+
+
+
+
+
+
