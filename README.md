@@ -272,8 +272,18 @@
    ...
    PS: This is a sample question of the facebook engineer challenge on interviewstreet. I found it quite fun to solve on paper using math, derive the algo that way. Have fun!
 
+- [ ] **`Multiplication of Numbers in an Array`**
 
-
+   Giving an array return the multiplication of all numbers of the array except  for the item at index i.
+   
+   Examples:
+   ```Javascript
+   Input:  [1, 2, 3, 4]
+   Output: [29, 13, 8, 9]
+   ------------------------
+   Input: [1, 3, 5, 7]
+   Outpu: [105, 35, 21, 15]
+   ```
 
 
 
