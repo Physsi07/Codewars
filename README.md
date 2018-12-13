@@ -336,7 +336,7 @@
    maxChar("apple 1231111") === "1"
    ```
 
-- [ ] **`Implement a Stack - Amazon`**
+- [x] **`Implement a Stack - Amazon`**
 
    Implement a stack that has the following methods:
    
