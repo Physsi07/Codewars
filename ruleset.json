@@ -2,97 +2,142 @@
     "Questions": [
         {
             "question_name": "Amount of Sets from 0 - N",
-            "question_description": "Create a function called `amountOfSets()` where giving a number return the amount of sets of numbers that add up to that number and that they are consecutive and less than that number",
-            "unit_tests": {
-                "input": 21,
-                "output": 3,
-                "explanation": "[1, 2, 3, 4, 5, 6], [6, 7, 8], [10, 11]"
-            }
+            "question_description": "Create a function call `amountOfSets(input)` where giving a number return the amount of sets of numbers that add up to that number and that they are consecutive and less than that number",
+            "unit_tests": [
+                {
+                    "input": 21,
+                    "output": 3,
+                    "explanation": "[1, 2, 3, 4, 5, 6], [6, 7, 8], [10, 11]"
+                }
+            ]
         },
         {
             "question_name": "Complementary DNA",
-            "question_description": "",
-            "unit_tests": ""
+            "question_description": "Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the `instructions` for the development and functioning of living organisms. Create a function call `DNAStrand()` \n\n In DNA strings, symbols `A` and `T` are complements of each other, as `C` and `G`. You have function with one side of the DNA (string, except for Haskell); you need to get the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell)",
+            "unit_tests": [
+                {
+                    "input": "ATTGC",
+                    "output": "TAACG",
+                    "explanation": ""
+                },
+                {
+                    "input": "GTAT",
+                    "output": "CATA",
+                    "explanation": ""
+                }
+            ]
         },
         {
             "question_name": "Don't Give me Five",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "Equal Side of Arrays",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "Highest and Lowest",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "Implement a Stack",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         },
         {
             "question_name": "",
             "question_description": "",
-            "unit_tests": ""
+            "unit_tests": [
+                {}
+            ]
         }
     ]
 }
