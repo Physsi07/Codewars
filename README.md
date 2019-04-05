@@ -345,7 +345,7 @@
    pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
    max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 
-
+- [X] **`Subarrays from an Array`**
 
 
 
