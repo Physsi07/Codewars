@@ -132,17 +132,6 @@
    ""  -->  ""
    ```
 
-- [x] **`Amount of Sets from 0 to N`**
-
-   Giving a number return the amount of sets of numbers that add up to that number and that they are consecutive and less than that number
-
-   Example:
-   ```Javascript
-   input = 21
-   answer = 3
-   because [1, 2, 3, 4, 5, 6], [6, 7, 8], [10, 11]
-   ```
-
 - [x] **`Mumbling`**
 
    This time no story, no theory. The examples below show you how to write function accum:
