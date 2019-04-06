@@ -78,7 +78,7 @@
         },
         {
             "question_name": "Implement a Stack",
-            "question_description": "",
+            "question_description": "Implement a stack that has the following methods: \n\n push(val), which pushes an element onto the stack pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null. max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.",
             "unit_tests": [
                 {
                     "input": "",
@@ -88,12 +88,17 @@
             ]
         },
         {
-            "question_name": "",
-            "question_description": "",
+            "question_name": "Max Character",
+            "question_description": "Create a method named `maxChar()` and given a string, return the character that is most commonly used in the string",
             "unit_tests": [
                 {
-                    "input": "",
-                    "output": "",
+                    "input": "abcccccccd",
+                    "output": "c",
+                    "explanation": ""
+                },
+                {
+                    "input": "apple 1231111",
+                    "output": "1",
                     "explanation": ""
                 }
             ]
