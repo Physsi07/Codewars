@@ -45,108 +45,178 @@
             
         },
         {
-            "question_name": "Equal Side of Arrays",
-            "question_description": "",
+            "question_name": "Highest and Lowest",
+            "question_description": "In this little assignment you are given a string of space separated numbers. Create a method named `highAndLow()`, have to return the highest and lowest number. \n\n All numbers are valid Int32, no need to validate them. There will always be at least one number in the input string. Output string must be two numbers separated by a single space, and highest number is first.",
             "unit_tests": [
-                {}
+                {
+                    "input": "1 2 3 4 5",
+                    "output": "5 1",
+                    "explanation": ""
+                },
+                {
+                    "input": "1 2 -3 4 5",
+                    "output": "5 -3",
+                    "explanation": ""
+                },
+                {
+                    "input": "1 9 3 4 -5",
+                    "output": "9 -5",
+                    "explanation": ""
+                }
             ]
         },
         {
-            "question_name": "Highest and Lowest",
+            "question_name": "Equal Side of Arrays",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "Implement a Stack",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         },
         {
             "question_name": "",
             "question_description": "",
             "unit_tests": [
-                {}
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
             ]
         }
     ]

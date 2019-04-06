@@ -72,23 +72,6 @@
    If you are given an array with multiple answers, return the lowest correct index.
    An empty array should be treated like a 0 in this problem.
 
-- [ ] **`Highest and Lowest`**
-
-   In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
-
-   Example:
-   ```Javascript
-   highAndLow("1 2 3 4 5"); // return "5 1"
-   highAndLow("1 2 -3 4 5"); // return "5 -3"
-   highAndLow("1 9 3 4 -5"); // return "9 -5"
-   ```
-
-   - Notes:
-
-   All numbers are valid Int32, no need to validate them.
-   There will always be at least one number in the input string.
-   Output string must be two numbers separated by a single space, and highest number is first.
-
 - [ ] **`Your order, please`**
 
    Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
