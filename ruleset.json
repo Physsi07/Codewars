@@ -104,12 +104,17 @@
             ]
         },
         {
-            "question_name": "",
-            "question_description": "",
+            "question_name": "Check if a string is a Palindrone",
+            "question_description": "In a function `isPalindrone()`  Given a string, return true if the string is a palindrome or false if it is not. Palindromes are strings that form the same word if it is reversed. Do include spaces and punctuation in determining if the string is a palindrome.",
             "unit_tests": [
                 {
-                    "input": "",
-                    "output": "",
+                    "input": "abba",
+                    "output": "True",
+                    "explanation": ""
+                },
+                {
+                    "input": "abcdefg",
+                    "output": "False",
                     "explanation": ""
                 }
             ]
