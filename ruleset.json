@@ -29,10 +29,20 @@
         },
         {
             "question_name": "Don't Give me Five",
-            "question_description": "",
+            "question_description": "Here you get the start number and the end number of a region and should return the count of all numbers except numbers with a 5 in it in a function call `dontGiveMeFive()`. The start and the end number are both inclusive! \n\n The result may contain fives. ;-) \n\n The start number will always be smaller than the end number. Both numbers can be also negative!",
             "unit_tests": [
-                {}
+                {
+                    "input": [1, 9],
+                    "output": 8,
+                    "explanation": ""
+                },
+                {
+                    "input": [4, 17],
+                    "output": 12,
+                    "explanation": ""
+                }
             ]
+            
         },
         {
             "question_name": "Equal Side of Arrays",
