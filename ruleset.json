@@ -120,23 +120,38 @@
             ]
         },
         {
-            "question_name": "",
-            "question_description": "",
+            "question_name": "What's the real floor?",
+            "question_description": "Americans are odd people: in their buildings, the first floor is actually the ground floor and there is no 13th floor ('cause of superstition). \n\n Write a function called `getRealFloor()` that given an American floor (passed as an integer) returns the real floor. Moreover, your function should work for basement floors too: just return the same value as the passed one.",
             "unit_tests": [
                 {
-                    "input": "",
-                    "output": "",
+                    "input": "1",
+                    "output": "0",
+                    "explanation": ""
+                },
+                {
+                    "input": "15",
+                    "output": "13",
                     "explanation": ""
                 }
             ]
         },
         {
-            "question_name": "",
-            "question_description": "",
+            "question_name": "Mumbling",
+            "question_description": "This time no story, no theory. The examples below show you how to write function `accum()`: \n\n\n The parameter of accum is a string which includes only letters from a..z and A..Z.",
             "unit_tests": [
                 {
-                    "input": "",
-                    "output": "",
+                    "input": "abcd",
+                    "output": "A-Bb-Ccc-Dddd",
+                    "explanation": ""
+                },
+                {
+                    "input": "RqaEzty",
+                    "output": "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy",
+                    "explanation": ""
+                },
+                {
+                    "input": "cwAt",
+                    "output": "C-Ww-Aaa-Tttt",
                     "explanation": ""
                 }
             ]

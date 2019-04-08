@@ -87,19 +87,6 @@
    ""  -->  ""
    ```
 
-- [x] **`Mumbling`**
-
-   This time no story, no theory. The examples below show you how to write function accum:
-
-   Example:
-   ```Javascript
-   accum("abcd");    // "A-Bb-Ccc-Dddd"
-   accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-   accum("cwAt");    // "C-Ww-Aaa-Tttt"
-   ```
-
-   `The parameter of accum is a string which includes only letters from a..z and A..Z.`
-
 - [x] **`Palindrone`**
 
    Determine whether an integer is a palindrone. An integer is a palindrone when it reads the same backwards as forward.
@@ -113,21 +100,6 @@
    output = false
    ```
 
-- [x] **`What's the real floor?`**
-
-   Americans are odd people: in their buildings, the first floor is actually the ground floor and there is no 13th floor ('cause of superstition).
-
-   Write a function that given an American floor (passed as an integer) returns the real floor.
-   Moreover, your function should work for basement floors too: just return the same value as the passed one.
-   
-   Usage Examples:
-   ```Javascript
-   getRealFloor(1) == 0 
-   getRealFloor(0) == 0 // Special case to please Europeans
-   getRealFloor(5) == 4
-   getRealFloor(15) == 13
-   getRealFloor(-3) == -3
-   ```
 - [x] **`Palindrome - JP Morgarn Hireview Question`**
 
    Giving a number, check if that number is a palindrone, 
