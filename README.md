@@ -215,17 +215,4 @@
    reverseInt(-90) === -9
    ```
 
-- [x] **`Reverse a String`**
-
-   --- Directions
-   Given a string, return a new string with the reversed order of characters
-   
-   --- Examples:
-   ```Javascript
-   reverse('apple') === 'leppa'
-   reverse('hello') === 'olleh'
-   reverse('Greetings!') === '!sgniteerG'
-   ```
-
-
 

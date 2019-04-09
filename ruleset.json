@@ -157,12 +157,17 @@
             ]
         },
         {
-            "question_name": "",
-            "question_description": "",
+            "question_name": "Reverse a String",
+            "question_description": "Create a function call `reverse()` that takes a string as an input and returns a new string with the reversed order of characters",
             "unit_tests": [
                 {
-                    "input": "",
-                    "output": "",
+                    "input": "apple",
+                    "output": "leppa",
+                    "explanation": ""
+                },
+                {
+                    "input": "Greetings!",
+                    "output": "!sgniteerG",
                     "explanation": ""
                 }
             ]
