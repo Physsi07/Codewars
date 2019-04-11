@@ -119,25 +119,7 @@
    input  -->  481  output  -->  [ 3, 2552 ]
    input  -->  793  output  -->  [ 3, 3113 ]
    ```
-
-- [x] **`How Many Coins to get to Total - JP Morgan Hireview Question`**
-
-   You are giving coins of values 1, 2, 4. You are also given a total which you have to arrive at.
-   Find the minimum number of coins to arrive at the total. 
-
-   `Input:`
-   Your program should read lines from standard input. Each line contains a positive integer number
-   which represents the total you have to arrive at.
-
-   `Output:`
-   Print out the minimum number of coins required to arrive at the total.
-
-   Example:
-   ```Javascript
-   input --> 20 output --> 5
-   input --> 11 output --> 4	
-   ```
-
+   
 - [x] **`No Duplicates Digits - JP Morgan (CHASE) Question`**
 
    Giving a number, check if that number has duplicates digits,

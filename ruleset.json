@@ -173,13 +173,13 @@
             ]
         },
         {
-            "question_name": "",
-            "question_description": "",
+            "question_name": "How Many Coins to get to Total - JP Morgan Hireview Question",
+            "question_description": "You are giving coins of values 1, 2, 4. You are also given a total which you have to arrive at. \n\n In a function call `coinsToGetToTotal()` Find the minimum number of coins to arrive at the total. \n\n\n\n\n`Input:`\n\n\n Your program should read lines from standard input. Each line contains a positive integer number which represents the total you have to arrive at. \n\n\n\n `Output:` \n\n\n Print out the minimum number of coins required to arrive at the total.",
             "unit_tests": [
                 {
-                    "input": "",
-                    "output": "",
-                    "explanation": ""
+                    "input": "20",
+                    "output": "5",
+                    "explanation": "5 coins of $4"
                 }
             ]
         },
