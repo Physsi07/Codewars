@@ -2,6 +2,11 @@ class Stack{
    let index = 0;
    let stack = {};
 
+   this.Stack = (index, stack) => {
+      this.index = index;
+      this.stack = stack;
+   }
+
    this.push = value => {
       stack[index] = value;
       index++;

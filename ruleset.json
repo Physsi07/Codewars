@@ -1,0 +1,253 @@
+{
+    "Questions": [
+        {
+            "question_name": "Amount of Sets from 0 - N",
+            "question_description": "Create a function call `amountOfSets(input)` where giving a number return the amount of sets of numbers that add up to that number and that they are consecutive and less than that number",
+            "unit_tests": [
+                {
+                    "input": 21,
+                    "output": 3,
+                    "explanation": "[1, 2, 3, 4, 5, 6], [6, 7, 8], [10, 11]"
+                }
+            ]
+        },
+        {
+            "question_name": "Complementary DNA",
+            "question_description": "Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the `instructions` for the development and functioning of living organisms. Create a function call `DNAStrand()` \n\n In DNA strings, symbols `A` and `T` are complements of each other, as `C` and `G`. You have function with one side of the DNA (string, except for Haskell); you need to get the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell)",
+            "unit_tests": [
+                {
+                    "input": "ATTGC",
+                    "output": "TAACG",
+                    "explanation": ""
+                },
+                {
+                    "input": "GTAT",
+                    "output": "CATA",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "Don't Give me Five",
+            "question_description": "Here you get the start number and the end number of a region and should return the count of all numbers except numbers with a 5 in it in a function call `dontGiveMeFive()`. The start and the end number are both inclusive! \n\n The result may contain fives. ;-) \n\n The start number will always be smaller than the end number. Both numbers can be also negative!",
+            "unit_tests": [
+                {
+                    "input": [1, 9],
+                    "output": 8,
+                    "explanation": ""
+                },
+                {
+                    "input": [4, 17],
+                    "output": 12,
+                    "explanation": ""
+                }
+            ]
+            
+        },
+        {
+            "question_name": "Highest and Lowest",
+            "question_description": "In this little assignment you are given a string of space separated numbers. Create a method named `highAndLow()`, have to return the highest and lowest number. \n\n All numbers are valid Int32, no need to validate them. There will always be at least one number in the input string. Output string must be two numbers separated by a single space, and highest number is first.",
+            "unit_tests": [
+                {
+                    "input": "1 2 3 4 5",
+                    "output": "5 1",
+                    "explanation": ""
+                },
+                {
+                    "input": "1 2 -3 4 5",
+                    "output": "5 -3",
+                    "explanation": ""
+                },
+                {
+                    "input": "1 9 3 4 -5",
+                    "output": "9 -5",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "Equal Side of Arrays",
+            "question_description": "",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "Implement a Stack",
+            "question_description": "Implement a stack that has the following methods: \n\n push(val), which pushes an element onto the stack pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null. max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "Max Character",
+            "question_description": "Create a method named `maxChar()` and given a string, return the character that is most commonly used in the string",
+            "unit_tests": [
+                {
+                    "input": "abcccccccd",
+                    "output": "c",
+                    "explanation": ""
+                },
+                {
+                    "input": "apple 1231111",
+                    "output": "1",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "Check if a string is a Palindrone",
+            "question_description": "In a function `isPalindrone()`  Given a string, return true if the string is a palindrome or false if it is not. Palindromes are strings that form the same word if it is reversed. Do include spaces and punctuation in determining if the string is a palindrome.",
+            "unit_tests": [
+                {
+                    "input": "abba",
+                    "output": "True",
+                    "explanation": ""
+                },
+                {
+                    "input": "abcdefg",
+                    "output": "False",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "What's the real floor?",
+            "question_description": "Americans are odd people: in their buildings, the first floor is actually the ground floor and there is no 13th floor ('cause of superstition). \n\n Write a function called `getRealFloor()` that given an American floor (passed as an integer) returns the real floor. Moreover, your function should work for basement floors too: just return the same value as the passed one.",
+            "unit_tests": [
+                {
+                    "input": "1",
+                    "output": "0",
+                    "explanation": ""
+                },
+                {
+                    "input": "15",
+                    "output": "13",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "Mumbling",
+            "question_description": "This time no story, no theory. The examples below show you how to write function `accum()`: \n\n\n The parameter of accum is a string which includes only letters from a..z and A..Z.",
+            "unit_tests": [
+                {
+                    "input": "abcd",
+                    "output": "A-Bb-Ccc-Dddd",
+                    "explanation": ""
+                },
+                {
+                    "input": "RqaEzty",
+                    "output": "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy",
+                    "explanation": ""
+                },
+                {
+                    "input": "cwAt",
+                    "output": "C-Ww-Aaa-Tttt",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "Reverse a String",
+            "question_description": "Create a function call `reverse()` that takes a string as an input and returns a new string with the reversed order of characters",
+            "unit_tests": [
+                {
+                    "input": "apple",
+                    "output": "leppa",
+                    "explanation": ""
+                },
+                {
+                    "input": "Greetings!",
+                    "output": "!sgniteerG",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "How Many Coins to get to Total - JP Morgan Hireview Question",
+            "question_description": "You are giving coins of values 1, 2, 4. You are also given a total which you have to arrive at. \n\n In a function call `coinsToGetToTotal()` Find the minimum number of coins to arrive at the total. \n\n\n\n\n`Input:`\n\n\n Your program should read lines from standard input. Each line contains a positive integer number which represents the total you have to arrive at. \n\n\n\n `Output:` \n\n\n Print out the minimum number of coins required to arrive at the total.",
+            "unit_tests": [
+                {
+                    "input": "20",
+                    "output": "5",
+                    "explanation": "5 coins of $4"
+                }
+            ]
+        },
+        {
+            "question_name": "",
+            "question_description": "",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "",
+            "question_description": "",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "",
+            "question_description": "",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "",
+            "question_description": "",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "",
+            "question_description": "",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        },
+        {
+            "question_name": "",
+            "question_description": "",
+            "unit_tests": [
+                {
+                    "input": "",
+                    "output": "",
+                    "explanation": ""
+                }
+            ]
+        }
+    ]
+}

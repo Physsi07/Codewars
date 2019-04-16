@@ -11,3 +11,4 @@ function highAndLow(numbers){
   
   return highest + " " + lowest;
 }
+
