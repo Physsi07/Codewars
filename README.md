@@ -1,5 +1,7 @@
 # Problem Solving
 
+## Questions to all the problems I have face 
+
 - [x] **`Printer Errors`**
 
    In a factory a printer prints labels for boxes. For one kind of boxes the printer has to use colors which, for the sake of simplicity, are named with letters from a to m.
@@ -56,7 +58,6 @@
    ```
 
 - [x] **`Equal Sides of An Array`**
-
    
    You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
 
