@@ -38,6 +38,21 @@
    Testing: [1, 0, 1, 1] ==> 11
    ```
    However, the arrays can have varying lengths, not just limited to 4.
+
+- [x] **`Complementary DNA`**
+
+   Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
+
+   If you want to know more http://en.wikipedia.org/wiki/DNA
+
+   In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". You have function with one side of the DNA (string, except for Haskell); you need to get the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+
+   More similar exercise are found here http://rosalind.info/problems/list-view/ (source)
+
+   ```Javascript
+   DNAStrand ("ATTGC") # return "TAACG"
+
+   DNAStrand ("GTAT") # return "CATA"
    ```
 
 - [x] **`Equal Sides of An Array`**
@@ -72,6 +87,36 @@
    If you are given an array with multiple answers, return the lowest correct index.
    An empty array should be treated like a 0 in this problem.
 
+- [x] **`Don't Give me Five`**
+
+   In this kata you get the start number and the end number of a region and should return the count of all numbers except numbers with a 5 in it. The start and the end number are both inclusive!
+
+   Examples:
+   ```Javascript
+   1,9 -> 1,2,3,4,6,7,8,9 -> Result 8
+   4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12
+   ```
+
+   The result may contain fives. ;-)
+   The start number will always be smaller than the end number. Both numbers can be also negative!
+
+- [ ] **`Highest and Lowest`**
+
+   In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+   Example:
+   ```Javascript
+   highAndLow("1 2 3 4 5"); // return "5 1"
+   highAndLow("1 2 -3 4 5"); // return "5 -3"
+   highAndLow("1 9 3 4 -5"); // return "9 -5"
+   ```
+
+   - Notes:
+
+   All numbers are valid Int32, no need to validate them.
+   There will always be at least one number in the input string.
+   Output string must be two numbers separated by a single space, and highest number is first.
+
 - [ ] **`Your order, please`**
 
    Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
@@ -87,6 +132,30 @@
    ""  -->  ""
    ```
 
+- [x] **`Amount of Sets from 0 to N`**
+
+   Giving a number return the amount of sets of numbers that add up to that number and that they are consecutive and less than that number
+
+   Example:
+   ```Javascript
+   input = 21
+   answer = 3
+   because [1, 2, 3, 4, 5, 6], [6, 7, 8], [10, 11]
+   ```
+
+- [x] **`Mumbling`**
+
+   This time no story, no theory. The examples below show you how to write function accum:
+
+   Example:
+   ```Javascript
+   accum("abcd");    // "A-Bb-Ccc-Dddd"
+   accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+   accum("cwAt");    // "C-Ww-Aaa-Tttt"
+   ```
+
+   `The parameter of accum is a string which includes only letters from a..z and A..Z.`
+
 - [x] **`Palindrone`**
 
    Determine whether an integer is a palindrone. An integer is a palindrone when it reads the same backwards as forward.
@@ -100,6 +169,21 @@
    output = false
    ```
 
+- [x] **`What's the real floor?`**
+
+   Americans are odd people: in their buildings, the first floor is actually the ground floor and there is no 13th floor ('cause of superstition).
+
+   Write a function that given an American floor (passed as an integer) returns the real floor.
+   Moreover, your function should work for basement floors too: just return the same value as the passed one.
+   
+   Usage Examples:
+   ```Javascript
+   getRealFloor(1) == 0 
+   getRealFloor(0) == 0 // Special case to please Europeans
+   getRealFloor(5) == 4
+   getRealFloor(15) == 13
+   getRealFloor(-3) == -3
+   ```
 - [x] **`Palindrome - JP Morgarn Hireview Question`**
 
    Giving a number, check if that number is a palindrone, 
@@ -119,7 +203,25 @@
    input  -->  481  output  -->  [ 3, 2552 ]
    input  -->  793  output  -->  [ 3, 3113 ]
    ```
-   
+
+- [x] **`How Many Coins to get to Total - JP Morgan Hireview Question`**
+
+   You are giving coins of values 1, 2, 4. You are also given a total which you have to arrive at.
+   Find the minimum number of coins to arrive at the total. 
+
+   `Input:`
+   Your program should read lines from standard input. Each line contains a positive integer number
+   which represents the total you have to arrive at.
+
+   `Output:`
+   Print out the minimum number of coins required to arrive at the total.
+
+   Example:
+   ```Javascript
+   input --> 20 output --> 5
+   input --> 11 output --> 4	
+   ```
+
 - [x] **`No Duplicates Digits - JP Morgan (CHASE) Question`**
 
    Giving a number, check if that number has duplicates digits,
@@ -197,4 +299,48 @@
    reverseInt(-90) === -9
    ```
 
+- [x] **`Reverse a String`**
 
+   --- Directions
+   Given a string, return a new string with the reversed order of characters
+   
+   --- Examples:
+   ```Javascript
+   reverse('apple') === 'leppa'
+   reverse('hello') === 'olleh'
+   reverse('Greetings!') === '!sgniteerG'
+   ```
+
+- [x] **`Check if a string is a Palindrone`**
+
+   --- Directions
+   Given a string, return true if the string is a palindrome
+   or false if it is not.  Palindromes are strings that
+   form the same word if it is reversed. *Do* include spaces
+   and punctuation in determining if the string is a palindrome.
+
+   --- Examples:
+   ```Javascript
+   palindrome("abba") === true
+   palindrome("abcdefg") === false
+   ```
+- [x] **`Fizzbuzz`**
+
+   --- Directions
+   Given a string, return the character that is most
+   commonly used in the string.
+   
+   --- Examples:
+   ```Javascript
+   maxChar("abcccccccd") === "c"
+   maxChar("apple 1231111") === "1"
+   ```
+
+- [x] **`Implement a Stack - Amazon`**
+
+   Implement a stack that has the following methods:
+   
+   --- Directions
+   push(val), which pushes an element onto the stack
+   pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+   max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
