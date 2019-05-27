@@ -6,5 +6,7 @@ const balance_brackets = (brackets) => {
    let stack = [];
 
    
-
+   return 'result'
 }
+
+console.log(balance_brackets(test_one));

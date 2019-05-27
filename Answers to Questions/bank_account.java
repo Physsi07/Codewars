@@ -24,7 +24,4 @@ class BankAccount{
          balance -= amount;
       }
    }
-
-   
-
 }
